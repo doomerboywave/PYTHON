@@ -1,1 +1,13 @@
+num = 5;
+num2 = 10;
+
+soma = num + num2;
+sub = num - num2;
+mult = num * num2;
+div = num / num2;
+
+print("A soma é: ", soma);
+print("A subtração é: ", sub);
+print("A multiplicação é: ", mult);
+print("A divisão é: ", div);
 
