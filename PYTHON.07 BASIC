@@ -1,0 +1,4 @@
+frutas = ["banana", "uva", "tomate", "kiwi"]
+
+for fruta in frutas:
+    print(fruta.upper());
