@@ -1,0 +1,11 @@
+numero = [];
+
+for i in range(5):
+    numeros = int(input("Digite os numeros: "));
+    numero.append(numeros);
+    
+    soma = 0;
+    
+    for numeros in numero:
+        soma = soma + numeros;
+print("A soma dos numeros é: ", soma);       
