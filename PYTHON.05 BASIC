@@ -1,0 +1,14 @@
+usuario = str(input("Digite seu usuario: "));
+senha = int(input("Digite sua senha: "));
+
+if usuario == "ADMIN" and senha == 12345:
+    print("Conta acessada");
+    
+elif usuario == "ADMIN" and senha != 12345:
+    print("senha incorreta");
+    
+elif usuario != "ADMIN" and senha == 12345:
+    print("Nome de usuario incorreto");
+    
+else:
+    print("Acesso Negado");
